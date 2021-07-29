@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "feed input",  
+    "description": "this feeds input value to the search bar",  
+    "version": "1.0",    
+    "permissions": ["tabs", "<all_urls>"],  
+
+    "browser_action": { 
+		"default_icon": "images/icons/128.png",
+        "default_popup": "popup.html"  
+    }
+}
